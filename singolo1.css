@@ -1,3 +1,37 @@
-*{
-    padding: 0;
+* {
+	padding: 0;
+	margin: 0;
 }
+
+.wrapper {
+	display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lato', sans-serif;
+}
+
+.content {
+	width: 1024px;
+	border: 1px solid red;
+}
+
+header {
+	height: 88px;
+    background-color: #2d303a;
+    border-bottom: 8px solid #323746;
+}
+
+.slider{
+    height: 593px;
+    background-color: #f06c64;
+    border-bottom: 8px solid #ea676b;
+
+}
+
+
+.services{
+    height: 501px;
+    background-color: #f2f2f2;
+
+}
+
+
