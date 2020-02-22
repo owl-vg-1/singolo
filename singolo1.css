@@ -84,6 +84,7 @@ nav li span {
 .arrow-left{
 	left: 42px; 
 	bottom: 285px;
+	cursor: pointer;
 }
 
 .phone-vertical{
@@ -101,6 +102,7 @@ nav li span {
 	right: 39px; 
 	bottom: 285px;
 	transform: scaleX(-1);
+	cursor: pointer;
 }
 
 .services {
