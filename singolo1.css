@@ -10,7 +10,7 @@
 }
 
 .content {
-	width: 1024px;
+	width: 1020px;
 }
 
 header {
@@ -23,11 +23,11 @@ header {
 }
 
 .logo h1 {
-	padding-top: 35px;
+	padding-top: 30px;
 	padding-left: 40px;
 	color: white;
-	font-weight: bold;
-	font-size: 20px;
+	font-weight: 500;
+	font-size: 24px;
 }
 .logo h1 span {
 	color: #f06c64;
@@ -35,8 +35,38 @@ header {
 }
 
 nav ul {
-    display: flex;
-    
+	display: flex;
+	padding-right: 25px;
+	height: 100%;
+	
+}
+
+nav li {
+	text-decoration: none;
+	padding-top: 39px;
+	list-style-type: none;
+	
+}
+
+nav li a {
+	font-weight: 500;
+	font-size: 12px;
+	color: white;
+	padding-left: 14px;
+	padding-right: 13px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+nav li a:hover {
+	color: #f06c64;
+}
+
+nav li span {
+	font-size: 4px;
+	color: #494e62;
+	height: 100%;
+	vertical-align: middle;
 }
 
 
@@ -44,6 +74,33 @@ nav ul {
 	height: 593px;
 	background-color: #f06c64;
 	border-bottom: 8px solid #ea676b;
+	position:relative;
+}
+
+.slider img {
+	position: absolute;
+}
+
+.arrow-left{
+	left: 42px; 
+	bottom: 285px;
+}
+
+.phone-vertical{
+	left: 112px; 
+	bottom: 57px;
+}
+
+.phone-horizontal{
+	right: 111px; 
+	bottom: 179px;
+}
+
+
+.arrow-right{
+	right: 39px; 
+	bottom: 285px;
+	transform: scaleX(-1);
 }
 
 .services {
