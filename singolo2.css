@@ -1,0 +1,55 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-evenly;
+	font-family: 'Lato', sans-serif;
+}
+
+.content {
+	width: 1020px;
+}
+
+.portfolio{
+	height: 864px;
+	background-color: #2d303a;
+	border-bottom: 6px;
+	border-color: #323746;
+	color: #666d89;
+	padding-top: 55px;
+	padding-left: 39px;
+}
+
+.portfolio h2 {
+	font-size: 30px;
+	font-weight: 900;
+	padding-bottom: 22px;
+}
+
+.portfolio p {
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: -0.21px;
+	padding-bottom: 20px;
+
+}
+
+.portfolio-markers {
+	display: flex;
+}
+
+.portfolio-marker {
+	
+}
+
+
+
+
+.aboutUs{
+	height: 728px;
+	background-color: #f2f2f2;
+	
+}
